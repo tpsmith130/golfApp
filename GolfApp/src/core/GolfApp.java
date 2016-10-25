@@ -1,7 +1,6 @@
 // This is a product of Kyle Hendricks and Page Smith
 // This is Kyle's edit
 // Third edit
-// 4th edit
 package core;
 
 
