@@ -4,8 +4,13 @@ public class Hole
 {
     private int score, putts, penaltyShots;
     private boolean fairway, greens;
+    
 
     // Constructor
+    public Hole(int score)
+	 {
+	     setScore(score);
+	 }
     public Hole(int score, int putts, int penaltyShots, boolean fairway, 
             boolean greens)
     {
@@ -95,4 +100,5 @@ public class Hole
     public void setGreens(boolean greens) {
         this.greens = greens;
     }
+
 }
